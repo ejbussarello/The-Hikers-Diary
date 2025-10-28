@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bgvief2bv4wkc" path="res://scripts/game.gd" id="1_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://bu23oc575shsw" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="AudioStream" uid="uid://b6jeipmhruxc" path="res://assets/audio/Ambient 5.wav" id="2_yqjtg"]
+[ext_resource type="AudioStream" uid="uid://bi450hjcugqis" path="res://assets/audio/Night Ambient 1.wav" id="3_lnu2h"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_lnu2h")
@@ -17,4 +17,4 @@ position = Vector2(1, 0)
 zoom = Vector2(3, 3)
 
 [node name="MusicaFundo" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_yqjtg")
+stream = ExtResource("3_lnu2h")
