@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkxqqikq1u4lk"]
+
+[ext_resource type="Script" uid="uid://bgvief2bv4wkc" path="res://scripts/game.gd" id="1_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://bu23oc575shsw" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="AudioStream" uid="uid://b6jeipmhruxc" path="res://assets/audio/Ambient 5.wav" id="2_yqjtg"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_lnu2h")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
+position = Vector2(12, 24)
+speed = 50.0
+runner = 50.0
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(1, 0)
+zoom = Vector2(3, 3)
+
+[node name="MusicaFundo" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_yqjtg")

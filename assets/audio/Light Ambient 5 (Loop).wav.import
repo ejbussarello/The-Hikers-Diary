@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cge58dv5qmfio"
+path="res://.godot/imported/Light Ambient 5 (Loop).wav-b1efe9ab3e1bb37c541f1448b0fc34a1.sample"
+
+[deps]
+
+source_file="res://assets/audio/Light Ambient 5 (Loop).wav"
+dest_files=["res://.godot/imported/Light Ambient 5 (Loop).wav-b1efe9ab3e1bb37c541f1448b0fc34a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

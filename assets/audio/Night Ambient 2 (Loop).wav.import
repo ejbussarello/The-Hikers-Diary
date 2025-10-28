@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqyd38gh03vqs"
+path="res://.godot/imported/Night Ambient 2 (Loop).wav-0d6cefabe3b111eb9b9c1192004e6b02.sample"
+
+[deps]
+
+source_file="res://assets/audio/Night Ambient 2 (Loop).wav"
+dest_files=["res://.godot/imported/Night Ambient 2 (Loop).wav-0d6cefabe3b111eb9b9c1192004e6b02.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

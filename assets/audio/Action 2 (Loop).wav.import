@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bj3any1yn12m3"
+path="res://.godot/imported/Action 2 (Loop).wav-401492c9c23c5ed5c7937135a4d16b2b.sample"
+
+[deps]
+
+source_file="res://assets/audio/Action 2 (Loop).wav"
+dest_files=["res://.godot/imported/Action 2 (Loop).wav-401492c9c23c5ed5c7937135a4d16b2b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
